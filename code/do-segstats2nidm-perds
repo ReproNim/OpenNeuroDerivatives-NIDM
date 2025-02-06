@@ -22,3 +22,6 @@ done;
 for ttl in aseg_nidm.ttl lh.aparc_nidm.ttl rh.aparc_nidm.ttl; do
 	pynidm concat -nl "$(echo $(ls -1 "$ds"/*/"$ttl") | tr " " "," )" -o "$ds"/all-"$ttl"
 done
+
+pynidm concat -nl "$ds"/all-lh.aparc_nidm.ttl,"$ds"/all-rh.aparc_nidm.ttl  -o "$ds"/all-aparc_nidm.ttl
+pynidm concat -nl "$ds"/all-aseg_nidm.ttl,"$ds"/all-aparc_nidm.ttl -o "$ds"/all-freesurfer_nidm.ttl
