@@ -3,3 +3,7 @@
 	url = https://github.com/OpenNeuroDerivatives/OpenNeuroDerivatives
 	datalad-id = 841c712d-b3ae-42db-97f0-b820dd223620
 	datalad-url = https://github.com/OpenNeuroDerivatives/OpenNeuroDerivatives
+[submodule "code/segstats_jsonld"]
+	path = code/segstats_jsonld
+	url = https://github.com/ReproNim/segstats_jsonld
+	datalad-url = https://github.com/ReproNim/segstats_jsonld
