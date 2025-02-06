@@ -17,11 +17,20 @@ for sub in "$fsdir"/sub-*; do
 
 	echo "I: running segstats2nidm on $sub"	
 	segstats2nidm -add_de -s "$sub" -o "$outdir" --subjid "$ds/$subdir" -forcenidm; 
+
+	(
+	cd "$outdir"
+	mv aseg_nidm.ttl "$subdir"_atlas-aseg_nidm.ttl
+	mv lh.aparc_nidm.ttl "$subdir"_atlas-aparc_hemi-lh_nidm.ttl
+	mv rh.aparc_nidm.ttl "$subdir"_atlas-aparc_hemi-rh_nidm.ttl
+	)
 done;
 
-for ttl in aseg_nidm.ttl lh.aparc_nidm.ttl rh.aparc_nidm.ttl; do
-	pynidm concat -nl "$(echo $(ls -1 "$ds"/*/"$ttl") | tr " " "," )" -o "$ds"/all-"$ttl"
+(
+cd "$ds"
+for ttl in atlas-aseg atlas-aparc_hemi-lh atlas-aparc_hemi-rh; do
+	pynidm concat -nl "$(echo $(ls -1 sub-*/*"$ttl"_nidm.ttl) | tr " " "," )" -o "$ttl"_nidm.ttl
 done
-
-pynidm concat -nl "$ds"/all-lh.aparc_nidm.ttl,"$ds"/all-rh.aparc_nidm.ttl  -o "$ds"/all-aparc_nidm.ttl
-pynidm concat -nl "$ds"/all-aseg_nidm.ttl,"$ds"/all-aparc_nidm.ttl -o "$ds"/all-freesurfer_nidm.ttl
+pynidm concat -nl atlas-aparc_hemi-lh_nidm.ttl,atlas-aparc_hemi-rh_nidm.ttl -o atlas-aparc_nidm.ttl
+pynidm concat -nl atlas-aseg_nidm.ttl,atlas-aparc_nidm.ttl -o atlas-freesurfer_nidm.ttl
+)
