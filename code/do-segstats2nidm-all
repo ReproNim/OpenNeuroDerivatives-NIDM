@@ -1,0 +1,4 @@
+#!/bin/bash
+# intended to run from top dir ATM
+
+for fmriprepds in sourcedata/OpenNeuroDerivatives/ds00*-fmriprep; do ds=$(echo $fmriprepds | sed -e 's,.*/,,g' | sed -e 's,-.*,,g'); echo $ds; done | parallel -j 10 duct code/do-segstats2nidm-perds
