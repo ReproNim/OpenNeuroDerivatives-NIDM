@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -eu
+
+ds="$1"
+
+fsdir=sourcedata/OpenNeuroDerivatives/$ds-fmriprep/sourcedata/freesurfer; 
+
+mkdir -p "$ds";
+
+datalad get $fsdir/sub-*/{stats,scripts}; 
+
+for sub in "$fsdir"/sub-*; do 
+	subdir=$(basename $sub); 
+	outdir="$ds/$subdir"; 
+	mkdir -p "$outdir"; 
+
+	echo "I: running segstats2nidm on $sub"	
+	segstats2nidm -add_de -s "$sub" -o "$outdir" --subjid "$ds/$subdir" -forcenidm; 
+done;
+
+for ttl in aseg_nidm.ttl lh.aparc_nidm.ttl rh.aparc_nidm.ttl; do
+	pynidm concat -nl "$(echo $(ls -1 "$ds"/*/"$ttl") | tr " " "," )" -o "$ds"/all-"$ttl"
+done
