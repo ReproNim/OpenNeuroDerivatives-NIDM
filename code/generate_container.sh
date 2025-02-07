@@ -3,7 +3,7 @@
 set -eu
 
 # Either to build against to-be-released heudiconv
-dev_build=
+dev_build=1
 
 generate() {
 	if [ "$dev_build" = "1" ]; then
