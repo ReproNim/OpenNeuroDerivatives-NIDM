@@ -1,0 +1,554 @@
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/pctsurfcon.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/pctsurfcon.log.old (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-status-rh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/patchdir.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-rh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/ponscc.cut.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all-status-lh.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-lh.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.done (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/aseg.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.env.bak (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.cmd (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.local-copy (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.BA_exvivo.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.w-g.pct.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all-status.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.aparc.pial.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.curv.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.log (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.BA_exvivo.thresh.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.aparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/wmparc.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts/lastcall.build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/recon-all.env (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/rh.aparc.DKTatlas.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats/lh.aparc.a2009s.stats (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts/build-stamp.txt (file) [from openneuro-derivatives...]
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/stats (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/scripts (directory)
+get(ok): sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033/stats (directory)
+action summary:
+  get (notneeded: 1, ok: 468)
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000001
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000012
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000017
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000024
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000027
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000031
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000032
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000033
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000034
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000036
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000037
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds000233-fmriprep/sourcedata/freesurfer/sub-rid000041
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...
+Creating NIDM file...
+Writing NIDM file...

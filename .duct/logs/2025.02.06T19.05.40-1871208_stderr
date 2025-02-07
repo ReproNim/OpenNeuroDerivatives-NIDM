@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/data/repronim/OpenNeuroDerivatives-NIDM/code/segstats_jsonld/segstats_jsonld/fs_to_nidm.py", line 522, in read_buildstamp
+    with open(subdir + '/scripts/build-stamp.txt', 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'sourcedata/OpenNeuroDerivatives/ds003242-fmriprep/sourcedata/freesurfer/sub-SAXSISO01b/scripts/build-stamp.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/repronim/OpenNeuroDerivatives-NIDM/code/segstats_jsonld/venv/3/bin/segstats2nidm", line 33, in <module>
+    sys.exit(load_entry_point('segstats-jsonld', 'console_scripts', 'segstats2nidm')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/repronim/OpenNeuroDerivatives-NIDM/code/segstats_jsonld/segstats_jsonld/fs_to_nidm.py", line 632, in main
+    freesurfer_version = read_buildstamp(args.subject_dir)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/repronim/OpenNeuroDerivatives-NIDM/code/segstats_jsonld/segstats_jsonld/fs_to_nidm.py", line 526, in read_buildstamp
+    freesurfer_version = input(
+                         ^^^^^^
+EOFError: EOF when reading a line

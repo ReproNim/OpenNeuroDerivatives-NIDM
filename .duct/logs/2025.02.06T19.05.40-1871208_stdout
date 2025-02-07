@@ -1,0 +1,7 @@
+action summary:
+  get (notneeded: 193)
+I: running segstats2nidm on sourcedata/OpenNeuroDerivatives/ds003242-fmriprep/sourcedata/freesurfer/sub-SAXSISO01b
+
+                Could not find a build timestamp in the supplied subject directory.
+                The used freesurfer version can not be extracted. Please enter the
+                version of freesurfer you are using, if available: 
