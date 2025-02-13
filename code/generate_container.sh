@@ -8,7 +8,7 @@ dev_build=1
 generate() {
 	if [ "$dev_build" = "1" ]; then
 		apt_pkgs=python3-pip
-		run_cmd="pip install git+https://github.com/ReproNim/segstats_jsonld@master"
+		run_cmd="pip install --break-system-packages git+https://github.com/ReproNim/segstats_jsonld@master"
 	else
 		apt_pkgs=""
 		run_cmd=":"
