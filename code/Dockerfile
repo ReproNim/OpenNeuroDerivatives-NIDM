@@ -42,6 +42,7 @@ RUN apt-get update -qq \
                   pigz \
                   procps \
                   python3-nibabel \
+                  python3-pip \
                   python3-venv \
                   strace \
                   time \
@@ -50,7 +51,7 @@ RUN apt-get update -qq \
                   visidata \
                   wget \
            && rm -rf /var/lib/apt/lists/*
-RUN :
+RUN pip install --break-system-packages git+https://github.com/ReproNim/segstats_jsonld@master
 RUN apt-get update && apt-get -y dist-upgrade
 RUN test "$(getent passwd reproin)" \
     || useradd --no-user-group --create-home --shell /bin/bash reproin
@@ -110,7 +111,8 @@ RUN printf '{ \
           "git-annex", \
           "python3-nibabel", \
           "python3-venv", \
-          "visidata" \
+          "visidata", \
+          "python3-pip" \
         ], \
         "opts": null \
       } \
@@ -118,13 +120,13 @@ RUN printf '{ \
     { \
       "name": "run", \
       "kwds": { \
-        "command": "apt-get update -qq \\\\\\n    && apt-get install -y -q --no-install-recommends \\\\\\n           curl \\\\\\n           datalad \\\\\\n           git-annex \\\\\\n           gnupg \\\\\\n           less \\\\\\n           ncdu \\\\\\n           pigz \\\\\\n           procps \\\\\\n           python3-nibabel \\\\\\n           python3-venv \\\\\\n           strace \\\\\\n           time \\\\\\n           tree \\\\\\n           vim \\\\\\n           visidata \\\\\\n           wget \\\\\\n    && rm -rf /var/lib/apt/lists/*" \
+        "command": "apt-get update -qq \\\\\\n    && apt-get install -y -q --no-install-recommends \\\\\\n           curl \\\\\\n           datalad \\\\\\n           git-annex \\\\\\n           gnupg \\\\\\n           less \\\\\\n           ncdu \\\\\\n           pigz \\\\\\n           procps \\\\\\n           python3-nibabel \\\\\\n           python3-pip \\\\\\n           python3-venv \\\\\\n           strace \\\\\\n           time \\\\\\n           tree \\\\\\n           vim \\\\\\n           visidata \\\\\\n           wget \\\\\\n    && rm -rf /var/lib/apt/lists/*" \
       } \
     }, \
     { \
       "name": "run", \
       "kwds": { \
-        "command": ":" \
+        "command": "pip install --break-system-packages git+https://github.com/ReproNim/segstats_jsonld@master" \
       } \
     }, \
     { \
