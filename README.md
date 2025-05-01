@@ -20,29 +20,29 @@ flowchart LR
     subgraph OND_NIDM ["OpenNeuroDerivatives-NIDM<br/><a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM>ReproNim/OpenNeuroDerivatives-NIDM</a>"]
         %% file-tree under OND_NIDM
         subgraph FILES [Filetree]
-        SD["sourcedata/OpenNeuroDerivatives/"]
-        NIDM1["ds000001/atlas-freesurfer_nidm.ttl"]
+        SD["<a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM/tree/master/sourcedata/OpenNeuroDerivatives>sourcedata/OpenNeuroDerivatives/</a>"]
+        NIDM1["<a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM/tree/master/ds000001>ds000001</a>/<a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM/blob/master/ds000001/atlas-freesurfer_nidm.ttl>atlas-freesurfer_nidm.ttl</a>"]
         NIDM_E["…"]
-        NIDM6171["ds006171/atlas-freesurfer_nidm.ttl"]
+        NIDM6171["<a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM/tree/master/ds006171>ds006171</a>/<a href=https://github.com/ReproNim/OpenNeuroDerivatives-NIDM/blob/master/ds006171/atlas-freesurfer_nidm.ttl>atlas-freesurfer_nidm.ttl</a>"]
         end
     end
   end
 
   %% 2. OpenNeuroDerivatives (middle)
   subgraph ONDERV ["<a href=https://github.com/orgs/OpenNeuroDerivatives>OpenNeuroDerivatives/</a>"]
-    OND_UM["OpenNeuroDerivatives/"]
-    MRIQC1["ds000001-mriqc"]
-    FPREP1["ds000001-fmriprep"]
+    OND_UM["<a href=https://github.com/OpenNeuroDerivatives/OpenNeuroDerivatives>OpenNeuroDerivatives/</a>"]
+    MRIQC1["<a href=https://github.com/OpenNeuroDerivatives/ds000001-mriqc>ds000001-mriqc</a>"]
+    FPREP1["<a href=https://github.com/OpenNeuroDerivatives/ds000001-fmriprep>ds000001-fmriprep</a>"]
     ONDERV_E["…"]
-    MRIQC6171["ds006171-mriqc"]
-    FPREP6171["ds006171-fmriprep"]
+    MRIQC6171["<a href=https://github.com/OpenNeuroDerivatives/ds006171-mriqc>ds006171-mriqc</a>"]
+    FPREP6171["<a href=https://github.com/OpenNeuroDerivatives/ds006171-fmriprep>ds006171-fmriprep</a>"]
   end
 
   %% 3. OpenNeuroDatasets (rightmost)
   subgraph ONDSETS [<a href=https://github.com/OpenNeuroDatasets>OpenNeuroDatasets/</a>]
-    DS1["ds000001/"]
+    DS1["<a href=https://github.com/OpenNeuroDatasets/ds000001>ds000001/</a>"]
     DS_E["…"]
-    DS6171["ds006171"]
+    DS6171["<a href=https://github.com/OpenNeuroDatasets/ds006171>ds006171</a>"]
   end
 
   %% Flows
