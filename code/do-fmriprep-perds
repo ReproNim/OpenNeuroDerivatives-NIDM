@@ -18,4 +18,25 @@ fi
 
 mkdir -p "$ds";
 
+echo "I: producing software record"
+cmdline=$(cat $dspath/.reproman/jobs/local/*/command-array | tr '\0' '\n'  | head -n 1  | sed -e "s,--participant-label '01',--participant-label 'SENSORED-TODO-MAKE-PER-SUBJECT',g" -e "s,sub-[0-9]\+,sub-SENSORED-TODO-MAKE-PER-SUBJECT,g")
+
+cat >| "$ds/fmriprep-software-metadata.csv" << EOF
+title,description,version,url,cmdline,platform,ID
+fmriprep,fMRIPrep is a NiPreps (NeuroImaging PREProcessing toolS) application (www.nipreps.org) for the preprocessing of task-based and resting-state functional MRI (fMRI).,$fmriprep_version,https://fmriprep.org/en/stable/,$cmdline,GNU/Linux,https://scicrunch.org/resolver/RRID:SCR_016216
+EOF
+
+echo "I: producing .csv extract"
 $(dirname $0)/SumarizeFmriprep/summarize_confounds "$dspath" "$ds/fmriprep-summarized-confounds.csv"
+
+# TEMP: TODO -- make that summarize confounds add a proper column with source_url
+sed '1s/$/,source_url/' "$ds/fmriprep-summarized-confounds.csv"
+
+echo "I: producing final ttl"
+csv2nidm \
+	 -csv_map code/SumarizeFmriprep/metadata/summarize_confounds_fmriprep_dictionary.csv \
+	 -no_concepts \
+	 -csv "$ds/fmriprep-summarized-confounds.csv" \
+	 -derivative "$ds/fmriprep-software-metadata.csv" \
+	 -out "$ds/fmriprep-summarized-confounds.ttl"
+
