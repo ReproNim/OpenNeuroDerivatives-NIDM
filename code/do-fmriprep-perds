@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -eu
+
+dspath="$1"
+derivds=$(basename "$dspath")
+ds=${derivds%-*}
+
+fmriprep_version=$(cat "$dspath/dataset_description.json" | python3 -c "import sys,json; j=json.load(sys.stdin); print(next(x['Version'] for x in j['GeneratedBy'] if x['Name']=='fMRIPrep'))")
+
+# Let's verify that all subjects have that version
+fmriprep_versions=$(grep -h "fMRIPrep version:" $dspath/sub-*.html  |  sort | uniq | sed -e 's,.*: ,,' -e 's,<.*,,g')
+
+if [ "$fmriprep_versions" != "$fmriprep_version" ]; then
+	echo "ERROR: got mismatch between versions in .html files ($fmriprep_versions) and dataset_description.json ($fmriprep_version)"
+	exit 1
+fi
+
+mkdir -p "$ds";
+
+$(dirname $0)/SumarizeFmriprep/summarize_confounds "$dspath" "$ds/fmriprep-summarized-confounds.csv"
