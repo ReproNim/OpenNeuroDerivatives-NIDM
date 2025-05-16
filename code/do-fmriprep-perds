@@ -30,7 +30,8 @@ echo "I: producing .csv extract"
 $(dirname $0)/SumarizeFmriprep/summarize_confounds "$dspath" "$ds/fmriprep-summarized-confounds.csv"
 
 # TEMP: TODO -- make that summarize confounds add a proper column with source_url
-sed '1s/$/,source_url/' "$ds/fmriprep-summarized-confounds.csv"
+# didn't work -- added newline symbol for some reason
+#sed -i -e '1s/$/,source_url/' "$ds/fmriprep-summarized-confounds.csv"
 
 echo "I: producing final ttl"
 csv2nidm \
