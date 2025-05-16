@@ -7,3 +7,7 @@
 	path = code/segstats_jsonld
 	url = https://github.com/ReproNim/segstats_jsonld
 	datalad-url = https://github.com/ReproNim/segstats_jsonld
+[submodule "code/SumarizeFmriprep"]
+	path = code/SumarizeFmriprep
+	url = https://github.com/ReproNim/SumarizeFmriprep
+	datalad-url = https://github.com/ReproNim/SumarizeFmriprep
