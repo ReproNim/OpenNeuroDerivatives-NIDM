@@ -1,0 +1,11 @@
+#!/bin/bash
+# intended to run from top dir ATM
+
+mkdir -p sourcedata/OpenNeuroDerivatives-fuse2/
+datalad fusefs --caching none -f -d sourcedata/OpenNeuroDerivatives sourcedata/OpenNeuroDerivatives-fuse2 &
+sleep 5  # Waiting to start 
+/bin/ls -1 -d sourcedata/OpenNeuroDerivatives-fuse2/ds00*-fmriprep \
+	| parallel -j 10 duct code/do-fmriprep-perds
+echo killing fusefs
+kill %1
+echo killed
