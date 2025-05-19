@@ -1,0 +1,9 @@
+I: producing software record
+I: producing .csv extract
+finding confounds reports...
+sub-16_task-emotionalfaces_run-1_desc-confounds_timeseries.tsv
+sub-16_task-emotionalfaces_run-2_desc-confounds_timeseries.tsv
+sub-16_task-emotionalfaces_run-3_desc-confounds_timeseries.tsv
+sub-16_task-emotionalfaces_run-4_desc-confounds_timeseries.tsv
+sub-16_task-emotionalfaces_run-5_desc-confounds_timeseries.tsv
+sub-16_task-rest_desc-confounds_timeseries.tsv

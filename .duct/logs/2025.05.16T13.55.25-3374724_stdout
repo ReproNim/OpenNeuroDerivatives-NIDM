@@ -1,0 +1,257 @@
+I: producing software record
+I: producing .csv extract
+finding confounds reports...
+writing ds001386/fmriprep-summarized-confounds.csv...
+I: producing final ttl
+***************************************************************************************
+---------------------------------------------------------------------------------------
+Variable subject_id automatically mapped to participant/subject identifier
+Label: subject_id
+Description: subject/participant identifier
+Source Variable: subject_id
+---------------------------------------------------------------------------------------
+json_key=framewise_displacement mean, column=framewise_displacement mean
+
+*************************************************************************************
+Column framewise_displacement mean already annotated in user supplied JSON mapping file
+label: framewise_displacement mean
+description: A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] averaged over the run.
+Added source variable (framewise_displacement mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=framewise_displacement std, column=framewise_displacement std
+
+*************************************************************************************
+Column framewise_displacement std already annotated in user supplied JSON mapping file
+label: framewise_displacement std
+description: A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] standard deviation over the run.
+Added source variable (framewise_displacement std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_x mean, column=trans_x mean
+
+*************************************************************************************
+Column trans_x mean already annotated in user supplied JSON mapping file
+label: trans_x mean
+description: Estimated head-motion parameter: translation in the 'x' direction averaged over the run.
+Added source variable (trans_x mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_x std, column=trans_x std
+
+*************************************************************************************
+Column trans_x std already annotated in user supplied JSON mapping file
+label: trans_x std
+description: Estimated head-motion parameter: translation in the 'x' direction standard deviation over the run.
+Added source variable (trans_x std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_y mean, column=trans_y mean
+
+*************************************************************************************
+Column trans_y mean already annotated in user supplied JSON mapping file
+label: trans_y mean
+description: Estimated head-motion parameter: translation in the 'y' direction  averaged over the run.
+Added source variable (trans_y mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_y std, column=trans_y std
+
+*************************************************************************************
+Column trans_y std already annotated in user supplied JSON mapping file
+label: trans_y std
+description: Estimated head-motion parameter: translation in the 'y' direction standard deviation over the run.
+Added source variable (trans_y std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_z mean, column=trans_z mean
+
+*************************************************************************************
+Column trans_z mean already annotated in user supplied JSON mapping file
+label: trans_z mean
+description: Estimated head-motion parameter: translation in the 'z' direction  averaged over the run.
+Added source variable (trans_z mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_z std, column=trans_z std
+
+*************************************************************************************
+Column trans_z std already annotated in user supplied JSON mapping file
+label: trans_z std
+description: Estimated head-motion parameter: translation in the 'z' direction standard deviation over the run.
+Added source variable (trans_z std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_x mean, column=rot_x mean
+
+*************************************************************************************
+Column rot_x mean already annotated in user supplied JSON mapping file
+label: rot_x mean
+description: Estimated head-motion parameter: rotation about the 'x' axis averaged over the run.
+Added source variable (rot_x mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_x std, column=rot_x std
+
+*************************************************************************************
+Column rot_x std already annotated in user supplied JSON mapping file
+label: rot_x std
+description: Estimated head-motion parameter: rotation about the 'x' axis standard deviation over the run.
+Added source variable (rot_x std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_y mean, column=rot_y mean
+
+*************************************************************************************
+Column rot_y mean already annotated in user supplied JSON mapping file
+label: rot_y mean
+description: Estimated head-motion parameter: rotation about the 'y' axis averaged over the run.
+Added source variable (rot_y mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_y std, column=rot_y std
+
+*************************************************************************************
+Column rot_y std already annotated in user supplied JSON mapping file
+label: rot_y std
+description: Estimated head-motion parameter: rotation about the 'y' axis standard deviation over the run.
+Added source variable (rot_y std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_z mean, column=rot_z mean
+
+*************************************************************************************
+Column rot_z mean already annotated in user supplied JSON mapping file
+label: rot_z mean
+description: Estimated head-motion parameter: rotation about the 'z' axis averaged over the run.
+Added source variable (rot_z mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_z std, column=rot_z std
+
+*************************************************************************************
+Column rot_z std already annotated in user supplied JSON mapping file
+label: rot_z std
+description: Estimated head-motion parameter: rotation about the 'z' axis standard deviation over the run.
+Added source variable (rot_z std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=csf mean, column=csf mean
+
+*************************************************************************************
+Column csf mean already annotated in user supplied JSON mapping file
+label: csf mean
+description: Global signal: the average signal within anatomically-derived eroded CSF mask averaged over the run.
+Added source variable (csf mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101997
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=csf std, column=csf std
+
+*************************************************************************************
+Column csf std already annotated in user supplied JSON mapping file
+label: csf std
+description: Global signal: the average signal within anatomically-derived eroded CSF mask standard deviation over the run.
+Added source variable (csf std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101997
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=white_matter mean, column=white_matter mean
+
+*************************************************************************************
+Column white_matter mean already annotated in user supplied JSON mapping file
+label: white_matter mean
+description: Global signal: the average signal within the anatomically-derived eroded white matter masks averaged over the run.
+Added source variable (white_matter mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0112630
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=white_matter std, column=white_matter std
+
+*************************************************************************************
+Column white_matter std already annotated in user supplied JSON mapping file
+label: white_matter std
+description: Global signal: the average signal within the anatomically-derived eroded white matter masks standard deviation over the run.
+Added source variable (white_matter std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0112630
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=global_signal mean, column=global_signal mean
+
+*************************************************************************************
+Column global_signal mean already annotated in user supplied JSON mapping file
+label: global_signal mean
+description: Global signal: the average signal within the brain mask averaged over the run.
+Added source variable (global_signal mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101431
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=global_signal std, column=global_signal std
+
+*************************************************************************************
+Column global_signal std already annotated in user supplied JSON mapping file
+label: global_signal std
+description: Global signal: the average signal within the brain mask standard deviation over the run.
+Added source variable (global_signal std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101431
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=motion outliers, column=motion outliers
+
+*************************************************************************************
+Column motion outliers already annotated in user supplied JSON mapping file
+label: motion outliers
+description: Count of frames within the run with sudden and large motion or intensity spikes.
+Added source variable (motion outliers) to annotations
+valueType: http://uri.interlex.org/base/ilx_0782600
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+Creating NIDM file...
+Writing NIDM file....

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/data/repronim/OpenNeuroDerivatives-NIDM/code/SumarizeFmriprep/summarize_confounds", line 102, in <module>
+    c_sum.update(dict(zip(re_groups, m.groups())))
+                                     ^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'groups'

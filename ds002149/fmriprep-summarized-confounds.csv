@@ -1,0 +1,1 @@
+subject_id,ses,task,run,framewise_displacement mean,framewise_displacement std,trans_x mean,trans_x std,trans_y mean,trans_y std,trans_z mean,trans_z std,rot_x mean,rot_x std,rot_y mean,rot_y std,rot_z mean,rot_z std,csf mean,csf std,white_matter mean,white_matter std,global_signal mean,global_signal std,motion outliers,source_url

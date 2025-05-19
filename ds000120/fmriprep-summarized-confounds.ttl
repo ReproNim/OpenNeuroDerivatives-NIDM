@@ -1,0 +1,3547 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fmriprep: <https://fmriprep.org/en/stable/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix term_ilx_0101431: <http://uri.interlex.org/ilx_0101431> .
+@prefix term_ilx_0101997: <http://uri.interlex.org/ilx_0101997> .
+@prefix term_ilx_0104909: <http://uri.interlex.org/ilx_0104909> .
+@prefix term_ilx_0112630: <http://uri.interlex.org/ilx_0112630> .
+@prefix term_ilx_0794751: <http://uri.interlex.org/ilx_0794751> .
+@prefix term_ilx_0794752: <http://uri.interlex.org/ilx_0794752> .
+@prefix term_ilx_0794753: <http://uri.interlex.org/ilx_0794753> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:a61aed6a-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61aec20-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "712.1902486128675"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.6909953217381672"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1366314461255813"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0657248001957276"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "583.721026954954"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.141000981612865"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.000659240635787"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0011347733656816"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0038895901416666"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.002694027432819"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0003707665569444"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009114460492603"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.1242512379629629"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1038833277200039"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1471574030092592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.112243263859488"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0543732830185185"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0922207623117239"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "624.2198710082367"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.510767422198947"^^xsd:float .
+
+niiri:a61e230e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c61e21a6-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "645.9559696909608"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.3838416127490585"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.229186884516279"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1661501446208816"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "563.6611985982771"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.8346244032879395"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 16 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0013060153524537"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0026430749094492"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0028854869350925"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0024459307947523"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0010541774551388"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0011750598773287"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.2207078691203703"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1797417314180298"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1387333267282407"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1411862292715465"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3902623401157407"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2718019861802915"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "593.6281392942909"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.7251120797172783"^^xsd:float .
+
+niiri:a620b7fe-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e620b682-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "772.9150731821204"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.8608640695317016"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1577251199627906"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0679750110309388"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "616.0995296886742"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.3835180368498834"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0001375087081481"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0010224547920849"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0001308753243518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0004472102672053"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0005349547550925"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005784524635874"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0526444970787037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0608823673971569"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0935220258379629"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0560520284219077"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0171745077685185"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0739907285560977"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "647.1686655394346"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.23985243988916"^^xsd:float .
+
+niiri:a622c148-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b622bfa4-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "638.6533513263893"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.94250989676224"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1709427850176744"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1856180307670371"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "563.3025186895904"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.089145367590138"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 10 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0023324383405555"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0037307974381484"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0011796835416203"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0009800377506013"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0003589551229629"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008559527122546"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0126047639398148"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0261622660808394"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0911685434958333"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1159045982874603"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.3265194494907407"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.51366790518343"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "589.4309788480025"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.8408239461985183"^^xsd:float .
+
+niiri:a628a9b4-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c628a798-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "836.9976177222334"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.993611639694256"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.0962847013944185"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0390020236969312"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "680.3969370863374"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.2860864656966375"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0023191109601851"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0018519711980956"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0011868261444444"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008412377146149"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-2.086359560185185e-05"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003559451122535"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0385164402222222"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0428197781613551"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0109831628986111"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0299516453469726"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.1052637060648148"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.073160587838808"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "712.7143672707064"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.3269713039262732"^^xsd:float .
+
+niiri:a62b4408-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f62b41d8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "747.2891867536164"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.861855133364116"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1295864467195348"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0598050528092323"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "611.8420684481853"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "4.54559461974589"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0017951630919907"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0016609411711399"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-7.084052313888842e-05"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0003416183993238"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0001645366777777"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0002512801250929"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0225767986513888"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.023800477041427"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0011488789027777"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0263023064337864"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0618938676388888"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0791582429689413"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "617.3371423921519"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "4.555274713327504"^^xsd:float .
+
+niiri:a62d960e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c62d93ac-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "755.9440616159953"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "9.244012440870058"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.4491195941860464"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.8089022312397047"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "618.3894282405466"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "6.520640392342654"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 34 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0005081034175925"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0154945361323523"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0015533408259259"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0028152052134613"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0047908642824074"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0034682760162039"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0433768999537036"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1977122474992799"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.2148802775925926"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2468287453757056"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.3104554675462963"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2593353363472823"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "630.5245056606617"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "6.224456229119891"^^xsd:float .
+
+niiri:a62ec68c-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c62ec42a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "756.6499026867964"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.183033609095101"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2098704447823255"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.3025916348227641"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "665.2496175968722"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "3.350358229985434"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 10 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0040161873324074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0035487535220261"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.001146462587037"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0010761598407878"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "2.7065683046295837e-05"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0001379006390342"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0142119070277777"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.015396997157918"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.041555862537037"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0606450703199511"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0313318721273148"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2986346659657025"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "704.4707945368472"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "3.3894377992048166"^^xsd:float .
+
+niiri:b619eed8-327d-11f0-85e8-be3af2b6059f a prov:Collection,
+        prov:Entity ;
+    nfo:filename "ds000120/fmriprep-summarized-confounds.csv"^^xsd:string .
+
+niiri:b61aa0da-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61a9f86-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "766.4650446570481"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.2047735050092707"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1239122904697674"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0801879456620211"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "556.6038576752969"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.076508895473789"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0086689070976851"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0064459594638585"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0006481457833333"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008382099534334"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0003217928503333"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009614990372647"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0608664487268518"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0849426544569368"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0794229843101851"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0725023927310469"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.2921783686342592"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2326395182557805"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "593.5718072196452"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.9302703191689488"^^xsd:float .
+
+niiri:b61dd80e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a61dd6b0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "774.2588646227509"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.001722255404514"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1177048613767441"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0628623179958148"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "596.6979396769791"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.578406021724947"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0015513905037037"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0016414483343963"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0016984513778703"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.001075201584998"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0004136183811712"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003864777393928"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0451042206527777"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0273978598703061"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0618166217407407"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0751637679160915"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4256300969907407"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.4172917722318447"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "619.241270004351"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.0242441060513645"^^xsd:float .
+
+niiri:b61ebb84-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f61eba12-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "651.665331813976"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.6836018777812467"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1833716416279069"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1028729476227159"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "562.0300121303754"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "0.993085478982627"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 5 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0046822421981481"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.003253125692891"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0002316669305555"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.000620853875898"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0005368452230555"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005689172071349"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0030335208148148"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0232969758978971"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.115784645787037"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0900572400245938"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0571286406018518"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1372129219223196"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "596.1693481509998"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.79725171798327"^^xsd:float .
+
+niiri:b6271e0a-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c6271c2a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "643.4124795241722"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.0677090534646103"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2323352216976744"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1075162282250794"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "568.1383236051381"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.2449810453297212"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0012900576259259"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0018891271746033"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0002973946447685"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0004370447821157"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0001603798262962"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005571283047521"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0863276666666666"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0560145555672929"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1273142477361111"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0888023358545103"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0601870303402777"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1130330971339337"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "617.4615450194319"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.220902447730228"^^xsd:float .
+
+niiri:b62811f2-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e6280fea-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "703.065725455134"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.718400663827293"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2049445199023255"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1161575767602159"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "620.2611596133801"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.2972953612388256"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 6 ;
+    fmriprep:rot_x_mean_3gq2pom "0.004101042099537"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0024889393588458"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0016121166902777"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0013148226221447"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0001364974722222"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0011272401718864"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0205880926296296"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0424560979560859"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1048045408092592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0931868425501924"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.1154360480324074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1246782336781183"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "639.8053304527302"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.513648600696393"^^xsd:float .
+
+niiri:b6293f14-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d6293cf8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "832.4582134792132"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.1469518751791075"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1073011609982697"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0377459956844785"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "676.3976952567903"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "0.9062731119679326"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0015347877884722"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0012610564630272"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0002820332786111"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0003036257334885"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0004134080148148"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0002650536822126"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0144518077783981"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0255489264439253"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0007764532775"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0345778166837495"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0150059925902777"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.05014518331955"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "709.9183437263046"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.9604997251124916"^^xsd:float .
+
+niiri:b62a1d94-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a62a1b78-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "821.9722737046048"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.426768728987804"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2071504335599999"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1769898551881366"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "706.8762173584735"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.74020728454012"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 10 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0017164462513888"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0028326489235001"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0009599990337824"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0011092975764183"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0012705424617129"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007302685506253"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0669462663541666"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.035734880959352"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.150225354537037"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1378753076726444"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1155506740694444"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.4260722756389511"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "735.2113312968484"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.337078074884177"^^xsd:float .
+
+niiri:b62a688a-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b62a666e-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "872.0637970603864"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.5383997101050517"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1351190322418604"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0994915310952957"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "649.6778912091924"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.0272212082671577"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 4 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0021667912946296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.001481814150167"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0007243199691666"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007252046946353"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.000959057624074"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006222347770126"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0809603764814814"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0706851072663401"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1181269157222222"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0827900091677849"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0491521456722222"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1108536266899823"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "676.7241812438076"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.8093959644048498"^^xsd:float .
+
+niiri:b62b8ff8-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f62b8dbe-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "755.0114588449326"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "8.077561878424103"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1532889479674418"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0934301408514403"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "614.8019269435521"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "6.499617436849884"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 6 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0002709104984259"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0013383670077565"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0003310879825462"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0005300925227017"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.000203962877824"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003005985318925"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0006987474606481"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0253292792277751"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0243611777546296"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0356267165732237"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.042633785787037"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1154374479712979"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "621.6217931434475"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "6.330292054851148"^^xsd:float .
+
+niiri:c61bcff0-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a61bcea6-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "804.6692462765194"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.756596460821859"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1394056305266244"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0654057909968085"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "593.0958880473486"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.7260173214462966"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0068663920041666"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0040817817690838"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0024956023277777"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0018756856500786"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0015591376777777"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009120957895123"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0893789569387765"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0499117827697655"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.37154453875"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1064308334391647"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4543517833333333"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3244742449277895"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "620.0953518009243"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.5292701354707563"^^xsd:float .
+
+niiri:c61c1a64-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61c191a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "800.4878191533498"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.45029689155964"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.144565887804186"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0703110284376853"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "597.6374187566363"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.9380692411110287"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0028718243865277"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0020696720441072"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.001398001772787"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0009549612684524"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0002963544780092"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003864234118357"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.066307031980324"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0237530213002092"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0667470447777777"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0603994476805803"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.545336636111111"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2019401219128128"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "624.551473561871"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.7063435027025573"^^xsd:float .
+
+niiri:c61cfad8-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a61cf97a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "679.4222095706374"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.2498064934858872"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2000373936186046"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1462898036436904"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "607.6307477186541"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.6187544626493169"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 10 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0005672686326851"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0021049112006552"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0008086463643518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0010362020884817"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0005874575699074"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006224320837623"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0352478547685185"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0405930391381305"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0191615058935185"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0616267124098608"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1589533581944444"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2169308288931656"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "640.484861893819"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.7318221713226996"^^xsd:float .
+
+niiri:c61d44ac-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61d4362-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "680.1912019019526"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.069895624454036"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1590316166139534"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0880450777397843"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "609.5970237059863"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.047151896446956"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0015011956299999"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0013873674843157"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0003343386143518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0012198993302434"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.000734443136574"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005085382979716"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0395411018981481"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0700246699697198"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0785765384722222"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0623196606957046"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3916578009259259"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3026571435015351"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "641.989467296175"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.1668397717570205"^^xsd:float .
+
+niiri:c61fdf46-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c61fddc0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "698.1445781730661"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.36608850819076"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1117660006837209"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0495708419198867"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "552.375392409558"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.4978024363657096"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0020862949662037"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0014853411232748"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0005244408893518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0004669338390668"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0005129522541666"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005687245519277"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0297105624074074"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0424792534231766"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0625575000416666"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0517065873004782"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0353144956921296"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0392594929343292"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "567.2611823058835"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.7980489259947585"^^xsd:float .
+
+niiri:c6227792-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d62275e4-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "635.52265004276"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.81747146493294"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2286657123594418"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.5276925440841332"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "566.1228275851956"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "3.21797707252807"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 16 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0005679181555092"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0051889542976697"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0010813096342592"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008174225586585"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0002936415002314"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005207860466577"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0247387444397685"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.025637975735225"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0331377069790277"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0515362455703742"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0796808121759259"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3123372045084311"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "593.8184762289974"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.98327608893682"^^xsd:float .
+
+niiri:c6230da6-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d6230bf8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "792.590008704525"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.6811198854927465"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1293451646906976"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0388989061087428"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "631.9020392583809"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.3448527142282398"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0028625177955092"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0019761312290592"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0014763253545879"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0011525786885029"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0007772867124999"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008213081173504"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1282544347222222"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0767825286647281"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0824924893518518"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0471668116247373"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1286475331944444"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0897313677751496"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "659.4971742490451"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.498116491462928"^^xsd:float .
+
+niiri:c6243d98-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e6243bc2-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "691.5133651229136"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.9633352650329896"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1486253304837209"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0672158343332307"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "587.21851353759"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.5990556988285278"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0072669497226851"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0054724521114919"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0008686775592592"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0006195484275341"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.002509592171574"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0012357115691066"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0239528983703703"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0542238142410047"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0170615427777777"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.120999250783294"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.2115698389583333"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1400939790731809"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "627.9570191551221"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2490541763528158"^^xsd:float .
+
+niiri:c624ce5c-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a624cc90-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "701.2566070742838"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.057463734643552"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1323270588896744"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0556801831692301"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "600.6446880717618"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.967905381775196"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0037301587273148"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0034696780960809"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0008909143916666"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007068666064885"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0008992273903749"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.000783095758487"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0275513170856018"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0607575933475898"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.2370425478518518"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2742429356614775"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3872730108333333"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2165156808583163"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "639.4156968892735"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.0947047552215867"^^xsd:float .
+
+niiri:c62519c0-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d62517ea-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "747.0949373768332"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.9628690501121415"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2015595106697674"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2165205669547832"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "615.0687369504628"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.7645219137944306"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 12 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.000574028911574"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0024526500420996"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0016094825194444"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0029265982666605"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0037122523757407"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.002011342289203"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0574089405925925"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0520331462378468"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1423031136296296"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1426214180375448"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3455745713240741"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3321195549326932"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "652.4822909791951"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.5331844159514538"^^xsd:float .
+
+niiri:c625f444-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c625f26e-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "675.6354331231022"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.199922377348548"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1521387355969767"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0837459681633692"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "590.0380823997012"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.26040853933208"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0027305164106018"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0019253294996591"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.000110945882655"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0005993205495244"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0012136967537037"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009725414721032"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0309284904027777"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0498481688645262"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0323693565462962"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.051470101752043"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.2028925104768518"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1567061958580415"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "632.1047811643314"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.110601543958825"^^xsd:float .
+
+niiri:c627bbbc-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e627b996-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "647.0441345255488"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.874132291065093"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2338413223116279"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1103164589658118"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "568.0033527205838"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.2706973271563593"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 2 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0018255667712962"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0012860877594251"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0003394847514814"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0003979379069337"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.000727481799537"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005927567853233"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0401530695925925"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0302637195649075"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1453768686111111"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0884689128874896"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3620603562731481"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.4117123423838759"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "615.7236935103205"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.012716450788958"^^xsd:float .
+
+niiri:c6285db0-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d6285ba8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "702.8986863879246"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "6.440175244516235"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2059808248669767"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0897493753146866"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "626.4064583431916"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.136728971875385"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 4 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0134990805291666"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0077748371736644"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-4.80645554629625e-05"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008168372408704"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.002684561537037"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0013951394557049"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0745545579412037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0748620642233662"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.2037098265601852"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1073997310138773"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.2553600068101851"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3252983580646356"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "646.5470454500994"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.110688742732532"^^xsd:float .
+
+niiri:c628f3ce-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f628f1d0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "838.9181195198462"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.511951283807137"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1012117652246511"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0309454827569084"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "677.8296589506223"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.1568851184106523"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0010962454935648"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0007760285309835"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0006384868450462"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0005360216508193"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0004416686245833"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.000384624873324"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0558590015084722"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0349436329462978"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0319409815939814"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0322443291279158"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0271655454907407"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0386296810606686"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "709.8763354313733"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2801993479845182"^^xsd:float .
+
+niiri:c629d2d0-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c629d0b4-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "826.54504052346"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "6.238027160234342"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.3532496777534883"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.609871277245569"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "711.2054737361484"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "4.214880432186997"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 21 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0150902917546296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0113276325654731"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0007386619949074"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0013388026608116"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0013776316726851"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006215335402334"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0089136829305555"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0373534141846783"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.357296367962963"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1340427541163012"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3020876548611111"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.5072506874026362"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "736.002808180539"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "3.5179897744040827"^^xsd:float .
+
+niiri:c62c47d6-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f62c456a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "746.139859228301"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "5.496586472418263"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.3121366892279069"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2500661036793389"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "643.6781211309574"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.5830140466405624"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 39 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0079691685652777"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0053268389828434"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0006817834529629"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007718685661576"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0005261065472222"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008698609789112"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0021282456851851"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0332748798042556"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0202734494907407"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1667546372104928"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.2139430401435185"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.5819780620192307"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "668.376275274732"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.3120650145779447"^^xsd:float .
+
+niiri:c62d49ba-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b62d473a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "769.6216942444701"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.230344864850004"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.3199206918883721"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.3052043191542222"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "620.6460263513706"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.714499898282464"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 17 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0057421682037037"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0107095112758358"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0028959502773148"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0020440766764711"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0041476108935185"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0026106267370524"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1549886127916666"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1521296542265731"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1922523860648148"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1363730559459725"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.2103359956018518"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1466091919554007"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "628.7398329682519"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.275231595660092"^^xsd:float .
+
+niiri:c62de276-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b62de01e-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "809.9545120054428"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "18.33772861685892"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.3979140531162791"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.6280965718707721"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "655.9424111960034"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "15.374715674790336"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 34 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0024796397638888"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0206015657376628"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "1.467640680555649e-05"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0023420993489578"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0001156666921296"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.003404641071464"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0149701929212962"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1966454972214517"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1475138417361111"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2878070988474535"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.2673869258055555"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.4844379670167303"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "663.4047710581202"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "14.440212524113315"^^xsd:float .
+
+niiri:d61a54c2-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b61a5314-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "773.3786089914063"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.509907577237962"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1099522799720929"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.042745696506008"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "556.8089289585431"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.111695730280898"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0047454994171296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0026010362450382"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0009389915518055"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007297369054279"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0009302648657407"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0014972743185091"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0168507964351851"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0817780098864746"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1066821971249999"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1157243766374427"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0316014488027777"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0814548845890801"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "595.8956168481308"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.7880261633538955"^^xsd:float .
+
+niiri:d61cb0be-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b61caf74-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "685.2673041726838"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "7.058021264202513"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1812142253572092"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0901958786136544"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "607.354156797124"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "5.974059791866383"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 5 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0003680748814351"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0006828415329293"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0003890186673611"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0009469923524551"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0012834984751111"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009179927004292"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.1491363769444444"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0879211245914452"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0548971384259259"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0677225772411172"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4952234953703704"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3496184239038721"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "637.4668230052762"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "6.331311567422668"^^xsd:float .
+
+niiri:d6206e7a-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f6206ce0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "771.7415116714182"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.923819083529481"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1389927450288371"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0573711611862694"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "618.3901609590076"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.1363985822414897"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 2 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0014581156481481"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0005012852244475"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0018851980268518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0015639128497688"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0008435624141481"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008290383022327"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0535172198703703"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0609286060470343"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0907811887129629"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0432644190854694"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3257741402777778"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1476956581103033"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "649.3377830883514"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2623681065347565"^^xsd:float .
+
+niiri:d6214f5c-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a6214db8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "763.0949305211047"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.471002284644026"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1170268016306976"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0601657658916863"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "592.8694339507858"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.6925352975278734"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0009474533171296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.00090503166839"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0015323014666666"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008063215783633"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0009671751764351"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007427802287407"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0438364743875"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0499898150599118"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0202411995138888"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0281684674067618"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1199068442222222"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1152195730901473"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "603.9098163734036"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.9601160391939988"^^xsd:float .
+
+niiri:d621e3ae-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f621e214-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "764.8678784860305"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.125667541328978"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1322445065311627"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0599634430056212"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "593.424185336464"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.037121586303166"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0002211765106398"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0006685892500012"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0002373094712962"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.000679381273343"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0015441352685185"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008814039445102"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0577902887504629"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0388371370402911"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0911531888425925"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0478538192241849"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1523350261111111"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1608712143534371"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "602.7830853249643"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.7580128555101295"^^xsd:float .
+
+niiri:d6235d2e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d6235b58-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "781.7557193072643"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.7530355594389913"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.140587467396279"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0543309330944268"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "629.4563538087951"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.6038012064280356"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0036671401560185"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0026961353346978"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0011099863668981"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0009925161306735"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0023066879287037"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0014324924075929"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.2087345813888889"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1277669301879618"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0406864626851851"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0594991198528151"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0786561837611111"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0809055263978618"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "660.093139438372"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2766968246451569"^^xsd:float .
+
+niiri:d6248564-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a6248398-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "706.4289788109477"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.283833027469289"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1214648822976744"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0426540990358834"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "604.3859755303723"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.2412502937916907"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0014037173037037"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0012443600267002"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0002788958200462"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0003673120101986"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0006909445259259"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0004646537869281"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0312102731759259"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0442237870066605"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.064085114699074"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0579299019641897"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0817171167175925"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0672052327724123"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "638.173671249758"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.4861531792367562"^^xsd:float .
+
+niiri:d6276d06-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a6276ae0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "634.4291400913108"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.604760489681969"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2373965228325581"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1093169405406826"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "570.9006418623031"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.2654832599323853"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0004138863855555"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0011735720461272"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0003791357947222"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0004167540962995"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0001017052648148"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0004236115301755"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0061067922916666"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0221100025361603"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0700293945555555"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0566260060342532"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.1826942771759259"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1538952426662059"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "618.0105703405544"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1641984179688345"^^xsd:float .
+
+niiri:d62e2dda-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f62e2b82-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "747.120873688409"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.4048294992982227"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2424649979893023"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2519891123035984"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "653.0535027402085"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.473063731638184"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 19 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.000810201324074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0022127646572084"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0004318644978703"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0018305291003574"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-5.6296738564814346e-05"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003277337887459"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0480314405138888"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.082535626463375"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0485189249148148"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0779334580334682"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.062818720949074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3427428278256355"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "699.9498164608802"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.4093351213036533"^^xsd:float .
+
+niiri:e619f8f6-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b619f720-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "761.6983439524041"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.9763787676189675"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1314689727930232"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0859490890307187"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "557.7615334972443"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.7923286314858822"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0038455826199074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0028326648258159"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0021265878078703"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0011400730565352"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0037909245893981"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0022237694812514"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1303965117129629"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1020988685553617"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1311137916203703"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0921981867694067"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4954435689814815"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3385501649687942"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "593.7964897783221"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2921073003585526"^^xsd:float .
+
+niiri:e61b3a0e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c61b38c4-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "703.4413726114869"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.6469838462363615"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1366864804930232"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0701748430634487"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "574.334810668714"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.947157953863536"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.001405829349074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0014784704709962"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0037912908902777"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0032300393778915"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0005890168605555"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007345534093203"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.2370908988425926"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1592544455027481"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0083598739398148"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0724477796483744"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.1269854443981481"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1034809404847798"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "621.5770607226978"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.617488886185633"^^xsd:float .
+
+niiri:e61b86a8-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61b8568-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "702.5194170333374"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.095945743237892"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1501922848781395"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0906754507283938"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "582.3349659550532"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.3421098665495297"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0008321753527777"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0017987355498536"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0014869078268518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0012984208579183"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0025000057683796"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.001649807939729"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0466954276018518"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0424482127061777"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1188981513842592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.11398398069169"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0130354821962962"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.086302265643051"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "620.5932154766158"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.5674531832880625"^^xsd:float .
+
+niiri:e61c662c-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f61c64e2-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "796.7286518257957"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.951135229599822"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1423542967797209"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0849459699152494"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "594.1703305378569"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.5607698357609776"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0033530602700925"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0017246310114769"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0007169386367592"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0006225546437843"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0001454068747916"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003762041753433"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0616304168740277"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0256614745537286"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0808002068981481"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0460719548668028"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3105545291666666"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1299942250850524"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "624.7298509696687"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.421043084043179"^^xsd:float .
+
+niiri:e61e6a26-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f61e6896-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "663.0527086951607"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.994746788659356"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2852432945395348"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2232537129380764"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "564.8855356291843"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.4529418886699097"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 33 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0006077859787962"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0024956318957537"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0004316633459722"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.001154076470179"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0001815101553703"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007546119418626"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0624553478842592"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0892917694069928"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0628119325810185"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1524450132073575"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.37111864"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3010494025549968"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "599.1649973456108"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1341990032351883"^^xsd:float .
+
+niiri:e61f0436-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:a61f02ba-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "726.9388829245878"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.620279910589536"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2334413783479069"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2265602763505284"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "578.9083404832442"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.1603074961763697"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 16 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0034909671763888"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0032492345401167"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0009133471393518"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0023600974568616"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0002525846739907"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005620950395848"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1071496689143518"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1886035878507598"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0002071262499999"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2829123864615564"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4203219925925925"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2340433211258754"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "602.1333850620283"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.2727175054286817"^^xsd:float .
+
+niiri:e61f4eaa-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c61f4d2e-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "719.1884261191814"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.210387027769522"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2688476963488371"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.3249343787339713"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "581.1669815736044"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "3.595082077192311"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 21 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0251314575"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.005446052374641"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0006420808935185"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0035607697607397"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0007055074694907"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008662392402265"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.1613635535046296"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0974528357859002"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1642634285648148"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2302282591420601"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.6788741092592593"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2052919372051146"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "602.2948082316873"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "2.410909408991323"^^xsd:float .
+
+niiri:e6202668-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e62024ec-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "692.3271151607237"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.110602575046701"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1398113095832557"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0923583864509565"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "550.6264598312132"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.8878347190503943"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 2 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0027847013999074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0022069518031995"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0022271149167129"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0018562913271907"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0014701677611111"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0009423610906047"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0512840765125"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0820469296464475"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0389433234027777"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0453495387448955"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.20477194375"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1601096032126591"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "564.4088306795452"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1309798396560216"^^xsd:float .
+
+niiri:e621034e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b62101c8-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "771.0098812562147"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.6787474446566573"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1345016299974837"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0487933938496735"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "615.5675988440161"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "0.9744124081276933"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0002996539449074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0011989914127714"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0007318955912037"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0004193630815889"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "1.414993194444398e-05"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0004332496881705"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.062491466987037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0711344721136953"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0268026011805555"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0480899294497413"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.226818807984912"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1098010816104633"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "646.548491377646"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.9486387199974348"^^xsd:float .
+
+niiri:e6219a3e-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e62198ae-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "760.2203461737278"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.993885048009966"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1393744454372092"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0916807809555103"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "592.922444902915"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.479147864296786"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0003186585574074"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0013789400050492"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0020662655416666"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0021112968166037"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0012391810299537"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006460289167753"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1775779024537037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0951744842644426"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0290043245138888"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0799042508917919"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.3756050850925926"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.3829465111310577"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "603.1590878604034"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.235799442048071"^^xsd:float .
+
+niiri:e623f478-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e623f2c0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "748.8289824871621"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.86821481315052"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1443933394046511"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1385927881169406"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "563.4195233721208"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.296858034341318"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 5 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0014697935945833"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0022836540485911"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0013578595561851"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0011816178753598"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0009789572675925"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007186924335061"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.020770149037037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0615145872278449"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0553641757037036"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0456692169142444"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.1320677186111111"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1578279171775643"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "607.208159217716"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1286061904601483"^^xsd:float .
+
+niiri:e625642a-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e625624a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "747.2479462112663"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.724999673438724"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1923796071302325"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2321125386280045"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "615.3472148353735"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.998466554201593"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 10 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0052587190601851"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0039974893092344"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0037776164199074"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0026880571300531"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0014381365837962"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0020703602034545"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1635897213958333"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1852109774630528"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1243383718055555"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0883136830473121"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.398037527962963"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2832958825263436"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "653.0286992936066"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.892646362457328"^^xsd:float .
+
+niiri:e625aba6-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f625a9c6-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "665.1890195566604"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.643423960323242"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1664415332697674"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0882306338785189"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "579.0466563140078"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.46378207201807"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 2 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0026118337127314"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0017287598486632"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0013257698962962"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0010763355203532"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0021448489175925"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0010201783313011"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0657346631481481"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.1352414257766996"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0631082812083333"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0577737214840141"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0699240264722222"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0997456427810148"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "621.9772544239534"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1460558526803797"^^xsd:float .
+
+niiri:e6268940-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c626876a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "766.7306288472794"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.659286053126754"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1670848624711627"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.1251880581248821"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "584.6693950689178"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.7248462633228097"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 9 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0006536629949999"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0017249027152102"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0003782035390601"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.000760560327267"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.001890126353287"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0014083866395454"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1242322840263888"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0925568629587987"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0604432674537037"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0493038081229342"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.1499559027268518"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1202297824732361"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "622.3023931049679"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.417365822249418"^^xsd:float .
+
+niiri:e626d396-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e626d1a2-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "770.7416705448647"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "6.373602735130388"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2682671334966232"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.3161861408409335"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "588.0680782850181"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "4.649071272764285"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 35 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0014190698098611"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0039231796103347"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0018286194730555"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0017523972921284"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0005502614047222"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0010187054326634"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0247970661624259"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0957815158685147"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0495434624893055"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1450598135630441"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.2443198619907407"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.4879474744535467"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "628.044698821664"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "3.8171749594885074"^^xsd:float .
+
+niiri:e6298690-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c6298492-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "807.974434471434"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.822637937839138"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1732763048473023"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0764038855354556"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "712.3262424132126"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.4271654137288252"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 2 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0025358973703703"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0021614041323073"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0005210124655648"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0005161359523204"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0018155004083333"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.000977889795429"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0210263520183796"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0167919639565653"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0310576883564814"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0380962871143593"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.104993777824074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0822745755163843"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "735.2985259792143"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.255330473600912"^^xsd:float .
+
+niiri:e62ab092-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:d62aae6c-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "855.178789175781"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.4916852865699064"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1349127128651162"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2190947346526111"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "630.0034774004652"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.6608519254372176"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 6 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0031010724078703"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0028558089906746"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0012482943238888"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0011563614101455"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0010528227842592"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008114247910591"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0578130548148148"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0399876642714852"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0983510706851851"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1011640174182259"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.2388578545"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.209999497439431"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "650.1198070919163"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.655063418793144"^^xsd:float .
+
+niiri:e62bdea4-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e62bdad0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "741.6124951886598"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "4.299693622311918"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.2261942108176743"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.140266384877319"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "640.7178606951172"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.5754733079503"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 9 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0102931959523148"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0061052244885891"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.000875609284537"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0008232218467165"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "0.0006595145274999"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.000675355587635"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0050899800041666"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0307367760303667"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0040973840092592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0896860772161961"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "-0.0238709138796296"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.2395342855265539"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "665.6100419280218"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.22243212714688"^^xsd:float .
+
+niiri:e62c9434-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f62c91e6-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "737.0814556274914"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "8.660531780970901"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.4734792080930233"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.5387488611222119"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "641.4972802152299"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "4.782673163237873"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 57 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0030351652485185"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0133240041303055"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0014056997946759"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0022177364413697"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0016674661273148"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0015516658789001"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0852505843055555"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0999699534583664"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1989747503518518"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.3099728470054778"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "1.3408192557870369"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "1.1915396483480365"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "666.7624534027118"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "3.807295164314336"^^xsd:float .
+
+niiri:f61d8db8-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b61d8c46-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "781.0576859427371"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "8.805801968743015"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1177544599813953"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0622964270337309"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "609.9998060634944"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "6.399447645231573"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 1 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0035661221662036"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.003683298276047"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0004475147359212"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0006144284750916"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0006597430688888"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0007763558909437"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0727830774537037"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0510516488323395"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.1408250908796296"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.1390887199192654"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.7139565281481481"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.5724910844873143"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "641.8766370834492"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "5.482580335931576"^^xsd:float .
+
+niiri:f61f9658-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:e61f94f0-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "723.4652543929695"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.7443002911407226"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1917911430046511"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0981742405262682"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "579.9320737665513"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "2.357993404394398"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 4 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0051168647621296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0037053364460822"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.001732852414537"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0026588665526267"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0006139568611111"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006213547952933"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.11752987125"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.119300117930954"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.2886717374074074"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2955247754506644"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.330896086574074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.220633685481299"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "602.1453564191402"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.5971937732776678"^^xsd:float .
+
+niiri:f6222c10-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c6222a80-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "637.9609595609085"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.1204175340518465"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1555598948135185"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.2192331109497411"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "564.7912565879077"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.5315086625603056"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 12 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0032223545055555"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0027596230919177"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0014387088851851"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007252530251143"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0003532730527777"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003909325367186"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0015362228111736"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0109002518042171"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0527329902175925"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0497597997475754"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.4460905426851851"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.299834099027302"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "593.3509723961184"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.1594539633317895"^^xsd:float .
+
+niiri:f623a932-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c623a77a-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "743.3210452060814"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.148887311712014"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1277566795488371"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0762830967092762"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "564.0570901625445"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.868440511848527"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 3 ;
+    fmriprep:rot_x_mean_3gq2pom "-5.755053796296157e-05"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0010735929181515"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0020036183636574"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0013531420153222"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0009023116517129"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0005839323777985"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.1193613569444444"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.100664237637359"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0237040478157407"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.035599131078025"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0734840382824074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.1310013232718649"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "607.3572965603254"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "0.9008750994207536"^^xsd:float .
+
+niiri:f6263e2c-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:f6263c2e-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "764.7900433041002"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "3.001018431699697"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1512266323023255"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.064389097152948"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "586.7576950097204"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.4508261980902135"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0005124944618518"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.00098698693973"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "0.0007753363214814"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0007935176700665"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0021611557129629"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0008365713825628"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.1780923154763888"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0799408456644375"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.0088594846342592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0421900618453779"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0117703050324074"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0898546248384616"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "620.4550639789254"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.087242998614408"^^xsd:float .
+
+niiri:f62afc00-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:b62af9c6-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "751.6522506272419"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "2.9696862216368656"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.1196488612558139"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.0595646042051564"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "611.4019599582656"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "1.4196526232676046"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 0 ;
+    fmriprep:rot_x_mean_3gq2pom "0.0006812476605092"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0017122436843258"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-9.252920805555557e-05"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0003518838912247"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "5.157091162037037e-05"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0003856438477283"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "0.0321140356805555"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0300180360580624"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "0.0421524260092592"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.0275465738091728"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "0.0185421072222222"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "0.0796029618073455"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "615.8556063661645"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "1.0311535215511916"^^xsd:float .
+
+niiri:f62e7a74-327d-11f0-85e8-be3af2b6059f a prov:Entity ;
+    rdfs:type nidm:DerivativeCollection ;
+    prov:Location "https://example.com/TODO"^^xsd:anyURI ;
+    prov:wasGeneratedBy niiri:c62e7812-327d-11f0-85e8-be3af2b6059f ;
+    fmriprep:csf_mean_7ecnt7 "743.7896437646106"^^xsd:float ;
+    fmriprep:csf_std_1lrsleh "8.110994348546683"^^xsd:float ;
+    fmriprep:framewise_displacement_mean_2rr9md5 "0.4682764452402325"^^xsd:float ;
+    fmriprep:framewise_displacement_std_101vlv0 "0.8947496111479992"^^xsd:float ;
+    fmriprep:global_signal_mean_eqjn9k "651.3282813395335"^^xsd:float ;
+    fmriprep:global_signal_std_3apttiq "6.492249190075548"^^xsd:float ;
+    fmriprep:motion_outliers_d5jj1p 38 ;
+    fmriprep:rot_x_mean_3gq2pom "-0.0082687607546296"^^xsd:float ;
+    fmriprep:rot_x_std_kc3n7l "0.0115651986205766"^^xsd:float ;
+    fmriprep:rot_y_mean_1p787sj "-0.0018501454685185"^^xsd:float ;
+    fmriprep:rot_y_std_2mro3pe "0.0024117563910034"^^xsd:float ;
+    fmriprep:rot_z_mean_2h5hkvj "-0.0001520451898657"^^xsd:float ;
+    fmriprep:rot_z_std_jfnpf5 "0.0006410823133315"^^xsd:float ;
+    fmriprep:trans_x_mean_dunvi9 "-0.0208266351111111"^^xsd:float ;
+    fmriprep:trans_x_std_bahbfj "0.0679907622718277"^^xsd:float ;
+    fmriprep:trans_y_mean_2hmm401 "-0.1045277679520833"^^xsd:float ;
+    fmriprep:trans_y_std_21i6s45 "0.2627437772422609"^^xsd:float ;
+    fmriprep:trans_z_mean_2mjtai5 "1.0102731962962963"^^xsd:float ;
+    fmriprep:trans_z_std_3enu4uq "1.9534939475932145"^^xsd:float ;
+    fmriprep:white_matter_mean_71tbro "697.3490349708115"^^xsd:float ;
+    fmriprep:white_matter_std_cp81fu "5.675352477278769"^^xsd:float .
+
+fmriprep:csf_mean_7ecnt7 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "csf mean" ;
+    dct:description "Global signal: the average signal within anatomically-derived eroded CSF mask averaged over the run." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "csf mean" .
+
+fmriprep:csf_std_1lrsleh a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "csf std" ;
+    dct:description "Global signal: the average signal within anatomically-derived eroded CSF mask standard deviation over the run." ;
+    nidm:isAbout term_ilx_0101997: ;
+    nidm:sourceVariable "csf std" .
+
+fmriprep:framewise_displacement_mean_2rr9md5 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "framewise_displacement mean" ;
+    dct:description "A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] averaged over the run." ;
+    nidm:isAbout term_ilx_0104909: ;
+    nidm:sourceVariable "framewise_displacement mean" .
+
+fmriprep:framewise_displacement_std_101vlv0 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "framewise_displacement std" ;
+    dct:description "A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909: ;
+    nidm:sourceVariable "framewise_displacement std" .
+
+fmriprep:global_signal_mean_eqjn9k a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "global_signal mean" ;
+    dct:description "Global signal: the average signal within the brain mask averaged over the run." ;
+    nidm:isAbout term_ilx_0101431: ;
+    nidm:sourceVariable "global_signal mean" .
+
+fmriprep:global_signal_std_3apttiq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "global_signal std" ;
+    dct:description "Global signal: the average signal within the brain mask standard deviation over the run." ;
+    nidm:isAbout term_ilx_0101431: ;
+    nidm:sourceVariable "global_signal std" .
+
+fmriprep:motion_outliers_d5jj1p a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "motion outliers" ;
+    dct:description "Count of frames within the run with sudden and large motion or intensity spikes." ;
+    nidm:isAbout term_ilx_0104909: ;
+    nidm:sourceVariable "motion outliers" .
+
+fmriprep:rot_x_mean_3gq2pom a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_x mean" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'x' axis averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794751: ;
+    nidm:sourceVariable "rot_x mean" .
+
+fmriprep:rot_x_std_kc3n7l a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_x std" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'x' axis standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794751: ;
+    nidm:sourceVariable "rot_x std" .
+
+fmriprep:rot_y_mean_1p787sj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_y mean" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'y' axis averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794752: ;
+    nidm:sourceVariable "rot_y mean" .
+
+fmriprep:rot_y_std_2mro3pe a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_y std" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'y' axis standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794752: ;
+    nidm:sourceVariable "rot_y std" .
+
+fmriprep:rot_z_mean_2h5hkvj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_z mean" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'z' axis averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794753: ;
+    nidm:sourceVariable "rot_z mean" .
+
+fmriprep:rot_z_std_jfnpf5 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "rot_z std" ;
+    dct:description "Estimated head-motion parameter: rotation about the 'z' axis standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794753: ;
+    nidm:sourceVariable "rot_z std" .
+
+fmriprep:trans_x_mean_dunvi9 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_x mean" ;
+    dct:description "Estimated head-motion parameter: translation in the 'x' direction averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794751: ;
+    nidm:sourceVariable "trans_x mean" .
+
+fmriprep:trans_x_std_bahbfj a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_x std" ;
+    dct:description "Estimated head-motion parameter: translation in the 'x' direction standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794751: ;
+    nidm:sourceVariable "trans_x std" .
+
+fmriprep:trans_y_mean_2hmm401 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_y mean" ;
+    dct:description "Estimated head-motion parameter: translation in the 'y' direction  averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794752: ;
+    nidm:sourceVariable "trans_y mean" .
+
+fmriprep:trans_y_std_21i6s45 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_y std" ;
+    dct:description "Estimated head-motion parameter: translation in the 'y' direction standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794752: ;
+    nidm:sourceVariable "trans_y std" .
+
+fmriprep:trans_z_mean_2mjtai5 a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_z mean" ;
+    dct:description "Estimated head-motion parameter: translation in the 'z' direction  averaged over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794753: ;
+    nidm:sourceVariable "trans_z mean" .
+
+fmriprep:trans_z_std_3enu4uq a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "trans_z std" ;
+    dct:description "Estimated head-motion parameter: translation in the 'z' direction standard deviation over the run." ;
+    nidm:isAbout term_ilx_0104909:,
+        term_ilx_0794753: ;
+    nidm:sourceVariable "trans_z std" .
+
+fmriprep:white_matter_mean_71tbro a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "white_matter mean" ;
+    dct:description "Global signal: the average signal within the anatomically-derived eroded white matter masks averaged over the run." ;
+    nidm:isAbout term_ilx_0112630: ;
+    nidm:sourceVariable "white_matter mean" .
+
+fmriprep:white_matter_std_cp81fu a nidm:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "white_matter std" ;
+    dct:description "Global signal: the average signal within the anatomically-derived eroded white matter masks standard deviation over the run." ;
+    nidm:isAbout term_ilx_0112630: ;
+    nidm:sourceVariable "white_matter std" .
+
+niiri:a61a2eb6-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61a8276-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61b1b14-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "26"^^xsd:string .
+
+niiri:a61b692a-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61bb2fe-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61bcea6-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a61bfe9e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b61bfd9a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a61bfe9e-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61c48cc-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "25"^^xsd:string .
+
+niiri:a61cf97a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c61d286e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:c61d297c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a61dbb58-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "23"^^xsd:string .
+
+niiri:a61dbc52-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61dd6b0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d61e07ac-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a61e069e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a61e069e-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "23"^^xsd:string .
+
+niiri:a61ee744-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a61f02ba-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a61f3230-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d61f332a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a61f3230-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "21"^^xsd:string .
+
+niiri:a61f78da-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "21"^^xsd:string .
+
+niiri:a620e6a2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6214db8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b6217d9c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a6217eaa-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a6217eaa-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a62259e2-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "17"^^xsd:string .
+
+niiri:a6233e3e-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "16"^^xsd:string .
+
+niiri:a6238ce0-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6248398-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d624b138-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d624b020-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a624cc90-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c624fbde-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a624fce2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a624fce2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a625d6d0-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6262266-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6266c30-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "11"^^xsd:string .
+
+niiri:a6270262-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6274d30-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a6276ae0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f6279ca4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a6279db2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a6279db2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a628d5a6-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "08"^^xsd:string .
+
+niiri:a628d6b4-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a62a1b78-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b62a4b16-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:c62a4a12-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:a62d77dc-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "02"^^xsd:string .
+
+niiri:a62e0fb2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:a62ef576-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b619f720-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f61a2d30-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a61a2eb6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b61a5314-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e61a814a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a61a8276-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b61b681c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "26"^^xsd:string .
+
+niiri:b61bfd9a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "25"^^xsd:string .
+
+niiri:b61caf74-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e61cde36-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d61cdf30-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b61d7094-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b61d8c46-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a61dbc52-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a61dbb58-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b61e4ea6-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b620e59e-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "19"^^xsd:string .
+
+niiri:b62101c8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f6213242-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e621335a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b6217d9c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "18"^^xsd:string .
+
+niiri:b622bfa4-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d622f0c8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:c622efba-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b6233f7e-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b6238bc8-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "16"^^xsd:string .
+
+niiri:b6254706-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "13"^^xsd:string .
+
+niiri:b6258f22-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "13"^^xsd:string .
+
+niiri:b626b686-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "11"^^xsd:string .
+
+niiri:b6274c04-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "10"^^xsd:string .
+
+niiri:b627f2a8-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "10"^^xsd:string .
+
+niiri:b6283f74-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "09"^^xsd:string .
+
+niiri:b6288c4a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "09"^^xsd:string .
+
+niiri:b6296aa2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b62a4b16-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b62a666e-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b62a9288-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d62a9396-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b62a9288-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "05"^^xsd:string .
+
+niiri:b62af9c6-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b62b26c6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e62b27d4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b62b26c6-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "04"^^xsd:string .
+
+niiri:b62bb9f6-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "04"^^xsd:string .
+
+niiri:b62d28fe-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:b62d473a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a62d77dc-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f62d78f4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b62de01e-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c62e0e9a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a62e0fb2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:b62e5b48-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "01"^^xsd:string .
+
+niiri:c61b38c4-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b61b681c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a61b692a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c61c49e4-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c61c9372-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "25"^^xsd:string .
+
+niiri:c61d286e-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "24"^^xsd:string .
+
+niiri:c61d297c-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c61e21a6-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b61e4ea6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:e61e4da2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c61f4d2e-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e61f79e8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a61f78da-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c61fddc0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e6200ab6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:c62009b2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c62009b2-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "20"^^xsd:string .
+
+niiri:c6209ba2-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "19"^^xsd:string .
+
+niiri:c621c70c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "18"^^xsd:string .
+
+niiri:c6222a80-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a62259e2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:c6225afa-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c6225afa-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c622a5aa-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c622efba-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "17"^^xsd:string .
+
+niiri:c623a77a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d623d6dc-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e623d7ea-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c6242164-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c624fbde-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "14"^^xsd:string .
+
+niiri:c625f26e-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e626216c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a6262266-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c626876a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b626b686-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e626b78a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c627014a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "11"^^xsd:string .
+
+niiri:c6271c2a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b6274c04-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a6274d30-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c628a798-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a628d5a6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a628d6b4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c6298492-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c629b4bc-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d629b5d4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c629b4bc-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "06"^^xsd:string .
+
+niiri:c629d0b4-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d62a0174-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:e62a0070-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c62a4a12-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "06"^^xsd:string .
+
+niiri:c62ade64-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "05"^^xsd:string .
+
+niiri:c62c7616-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c62d93ac-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c62dc53e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d62dc426-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c62dc53e-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c62e0e9a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "02"^^xsd:string .
+
+niiri:c62e5c60-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:c62e7812-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e62ea954-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:f62ea846-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:c62ec42a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f62ef472-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a62ef576-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d61acfd8-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d61b1c36-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d61cdf30-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d61e07ac-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d61f332a-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d61fc24a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "21"^^xsd:string .
+
+niiri:d61fc344-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d620505c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "20"^^xsd:string .
+
+niiri:d6205174-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d6220e60-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "18"^^xsd:string .
+
+niiri:d62275e4-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f622a4b0-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:c622a5aa-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d622f0c8-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d6230bf8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a6233e3e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:b6233f7e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d6235b58-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a6238ce0-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b6238bc8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d623d6dc-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "15"^^xsd:string .
+
+niiri:d624b020-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "14"^^xsd:string .
+
+niiri:d624b138-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d62517ea-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e6254800-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b6254706-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d627f3e8-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d6285ba8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b6288c4a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f6288d4e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d62921aa-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "08"^^xsd:string .
+
+niiri:d6293cf8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e6296994-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:b6296aa2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d629b5d4-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d62a0174-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d62a9396-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:d62aae6c-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c62ade64-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f62adf5e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:d62d278c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "03"^^xsd:string .
+
+niiri:d62dc426-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "02"^^xsd:string .
+
+niiri:e61a814a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "27"^^xsd:string .
+
+niiri:e61a9f86-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f61aceb6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d61acfd8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e61aec20-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d61b1c36-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a61b1b14-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e61b8568-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f61bb1e6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a61bb2fe-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e61c191a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c61c49e4-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:a61c48cc-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e61c9480-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e61cde36-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "24"^^xsd:string .
+
+niiri:e61d4362-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b61d7094-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:f61d6f72-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e61e4da2-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "22"^^xsd:string .
+
+niiri:e61e9e2e-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "22"^^xsd:string .
+
+niiri:e61f79e8-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e61f94f0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d61fc344-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d61fc24a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e6200ab6-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e62024ec-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d6205174-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d620505c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e620b682-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a620e6a2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b620e59e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e621335a-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e62198ae-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f621c810-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:c621c70c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e623d7ea-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e623f2c0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c6242164-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:f624206a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e6243bc2-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f624689a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f62469b2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e6254800-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e625624a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e6259026-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b6258f22-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e6259026-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e626216c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "12"^^xsd:string .
+
+niiri:e626b78a-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e626d1a2-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a6270262-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:c627014a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e627b996-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b627f2a8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:d627f3e8-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e6280fea-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f6284082-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b6283f74-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e62922ae-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e6296994-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "08"^^xsd:string .
+
+niiri:e62a0070-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "06"^^xsd:string .
+
+niiri:e62b27d4-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e62bdad0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f62c27ec-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e62c2940-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:e62c2940-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:e62ea954-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f61a2d30-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "27"^^xsd:string .
+
+niiri:f61aceb6-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "27"^^xsd:string .
+
+niiri:f61bb1e6-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "26"^^xsd:string .
+
+niiri:f61c64e2-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c61c9372-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:e61c9480-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f61d6f72-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "24"^^xsd:string .
+
+niiri:f61e6896-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e61e9e2e-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f61e9f5a-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f61e9f5a-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f61eba12-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f61ee62c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:a61ee744-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f61ee62c-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "22"^^xsd:string .
+
+niiri:f6206ce0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c6209ba2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f6209c9c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f6209c9c-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f6213242-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "19"^^xsd:string .
+
+niiri:f621c810-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f621e214-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f6220f64-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d6220e60-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f6220f64-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f622a4b0-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "17"^^xsd:string .
+
+niiri:f624206a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "15"^^xsd:string .
+
+niiri:f624689a-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "14"^^xsd:string .
+
+niiri:f62469b2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f625a9c6-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a625d6d0-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:f625d5c2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f625d5c2-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "12"^^xsd:string .
+
+niiri:f6263c2e-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a6266c30-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f6266d34-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f6266d34-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f6279ca4-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "10"^^xsd:string .
+
+niiri:f6284082-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f6288d4e-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f628f1d0-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e62922ae-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:d62921aa-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62adf5e-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f62b41d8-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f62b71da-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:f62b72f2-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62b71da-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "04"^^xsd:string .
+
+niiri:f62b72f2-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f62b8dbe-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f62bbaf0-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b62bb9f6-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62bbaf0-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f62c27ec-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "03"^^xsd:string .
+
+niiri:f62c456a-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f62c74fe-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:c62c7616-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62c74fe-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "03"^^xsd:string .
+
+niiri:f62c91e6-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:d62d278c-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ],
+        [ a prov:Association ;
+            prov:agent niiri:b62d28fe-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62d78f4-327d-11f0-85e8-be3af2b6059f a prov:Agent ;
+    dcmitype:title "fmriprep"^^xsd:string ;
+    dct:description "fMRIPrep is a NiPreps (NeuroImaging PREProcessi..."^^xsd:string ;
+    dct:hasVersion "22.0.2"^^xsd:string ;
+    sio:URL "https://fmriprep.org/en/stable/"^^xsd:string ;
+    rdfs:type nidm:SoftwareAgent .
+
+niiri:f62e2b82-327d-11f0-85e8-be3af2b6059f a prov:Activity ;
+    dct:isPartOf niiri:c619755c-327d-11f0-85e8-be3af2b6059f ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:c62e5c60-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole nidm:NIDM_0000164 ],
+        [ a prov:Association ;
+            prov:agent niiri:b62e5b48-327d-11f0-85e8-be3af2b6059f ;
+            prov:hadRole sio:Subject ] ;
+    fmriprep:cmdline "code/containers/scripts/singularity_cmd run --c..."^^xsd:string ;
+    fmriprep:platform "GNU/Linux"^^xsd:string .
+
+niiri:f62ea846-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "01"^^xsd:string .
+
+niiri:f62ef472-327d-11f0-85e8-be3af2b6059f a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "01"^^xsd:string .
+
+nidm:PersonalDataElement rdfs:subClassOf nidm:DataElement .
+
+niiri:c619755c-327d-11f0-85e8-be3af2b6059f a nidm:Project,
+        prov:Activity .
+

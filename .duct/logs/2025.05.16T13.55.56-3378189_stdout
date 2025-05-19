@@ -1,0 +1,8 @@
+I: producing software record
+I: producing .csv extract
+finding confounds reports...
+sub-01_task-imagery_run-00_desc-confounds_timeseries.tsv
+sub-01_task-imagery_run-01_desc-confounds_timeseries.tsv
+sub-01_task-imagery_run-02_desc-confounds_timeseries.tsv
+sub-01_task-imagery_run-03_desc-confounds_timeseries.tsv
+sub-01_task-rest_desc-confounds_timeseries.tsv

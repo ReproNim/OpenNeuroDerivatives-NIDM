@@ -1,0 +1,460 @@
+I: producing software record
+I: producing .csv extract
+finding confounds reports...
+sub-120_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-120_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-119_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-119_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-118_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-118_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-117_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-117_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-116_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-116_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-115_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-115_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-114_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-114_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-113_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-113_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-112_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-112_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-111_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-111_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-110_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-110_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-109_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-109_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-108_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-108_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-107_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-107_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-106_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-106_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-105_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-105_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-104_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-104_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-103_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-103_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-102_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-102_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-101_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-101_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-100_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-100_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-099_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-099_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-098_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-098_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-097_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-097_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-096_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-096_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-095_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-095_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-094_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-094_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-093_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-093_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-092_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-092_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-091_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-090_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-089_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-088_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-087_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-086_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-085_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-084_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-083_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-082_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-081_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-080_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-079_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-078_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-077_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-076_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-075_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-074_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-073_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-072_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-071_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-070_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-069_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-068_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-068_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-067_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-067_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-066_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-066_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-065_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-065_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-064_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-064_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-063_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-063_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-062_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-062_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-061_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-061_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-060_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-060_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-059_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-059_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-058_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-058_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-057_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-057_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-056_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-056_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-055_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-055_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-054_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-054_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-053_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-053_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-052_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-052_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-051_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-051_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-050_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-050_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-049_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-049_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-048_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-048_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-047_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-047_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-046_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-046_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-045_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-045_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-044_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-044_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-043_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-043_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-042_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-042_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-041_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-041_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-040_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-040_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-039_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-039_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-038_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-038_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-037_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-037_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-036_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-036_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-035_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-035_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-034_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-034_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-033_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-033_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-032_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-032_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-031_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-031_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-030_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-030_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-029_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-029_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-028_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-028_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-027_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-027_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-026_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-026_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-025_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-025_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-024_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-024_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-023_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-023_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-022_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-022_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-021_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-021_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-020_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-020_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-019_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-019_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-018_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-018_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-017_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-017_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-016_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-016_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-015_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-015_task-rest_run-2_desc-confounds_timeseries.tsv
+sub-014_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-013_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-012_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-011_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-010_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-009_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-008_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-007_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-006_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-005_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-004_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-003_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-002_task-rest_run-1_desc-confounds_timeseries.tsv
+sub-001_task-rest_run-1_desc-confounds_timeseries.tsv
+writing ds000243/fmriprep-summarized-confounds.csv...
+I: producing final ttl
+***************************************************************************************
+---------------------------------------------------------------------------------------
+Variable subject_id automatically mapped to participant/subject identifier
+Label: subject_id
+Description: subject/participant identifier
+Source Variable: subject_id
+---------------------------------------------------------------------------------------
+json_key=framewise_displacement mean, column=framewise_displacement mean
+
+*************************************************************************************
+Column framewise_displacement mean already annotated in user supplied JSON mapping file
+label: framewise_displacement mean
+description: A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] averaged over the run.
+Added source variable (framewise_displacement mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=framewise_displacement std, column=framewise_displacement std
+
+*************************************************************************************
+Column framewise_displacement std already annotated in user supplied JSON mapping file
+label: framewise_displacement std
+description: A quantification of the estimated bulk-head motion calculated using formula proposed by [Power2012] standard deviation over the run.
+Added source variable (framewise_displacement std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_x mean, column=trans_x mean
+
+*************************************************************************************
+Column trans_x mean already annotated in user supplied JSON mapping file
+label: trans_x mean
+description: Estimated head-motion parameter: translation in the 'x' direction averaged over the run.
+Added source variable (trans_x mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_x std, column=trans_x std
+
+*************************************************************************************
+Column trans_x std already annotated in user supplied JSON mapping file
+label: trans_x std
+description: Estimated head-motion parameter: translation in the 'x' direction standard deviation over the run.
+Added source variable (trans_x std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_y mean, column=trans_y mean
+
+*************************************************************************************
+Column trans_y mean already annotated in user supplied JSON mapping file
+label: trans_y mean
+description: Estimated head-motion parameter: translation in the 'y' direction  averaged over the run.
+Added source variable (trans_y mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_y std, column=trans_y std
+
+*************************************************************************************
+Column trans_y std already annotated in user supplied JSON mapping file
+label: trans_y std
+description: Estimated head-motion parameter: translation in the 'y' direction standard deviation over the run.
+Added source variable (trans_y std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_z mean, column=trans_z mean
+
+*************************************************************************************
+Column trans_z mean already annotated in user supplied JSON mapping file
+label: trans_z mean
+description: Estimated head-motion parameter: translation in the 'z' direction  averaged over the run.
+Added source variable (trans_z mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=trans_z std, column=trans_z std
+
+*************************************************************************************
+Column trans_z std already annotated in user supplied JSON mapping file
+label: trans_z std
+description: Estimated head-motion parameter: translation in the 'z' direction standard deviation over the run.
+Added source variable (trans_z std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_x mean, column=rot_x mean
+
+*************************************************************************************
+Column rot_x mean already annotated in user supplied JSON mapping file
+label: rot_x mean
+description: Estimated head-motion parameter: rotation about the 'x' axis averaged over the run.
+Added source variable (rot_x mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_x std, column=rot_x std
+
+*************************************************************************************
+Column rot_x std already annotated in user supplied JSON mapping file
+label: rot_x std
+description: Estimated head-motion parameter: rotation about the 'x' axis standard deviation over the run.
+Added source variable (rot_x std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794751
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_y mean, column=rot_y mean
+
+*************************************************************************************
+Column rot_y mean already annotated in user supplied JSON mapping file
+label: rot_y mean
+description: Estimated head-motion parameter: rotation about the 'y' axis averaged over the run.
+Added source variable (rot_y mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_y std, column=rot_y std
+
+*************************************************************************************
+Column rot_y std already annotated in user supplied JSON mapping file
+label: rot_y std
+description: Estimated head-motion parameter: rotation about the 'y' axis standard deviation over the run.
+Added source variable (rot_y std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794752
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_z mean, column=rot_z mean
+
+*************************************************************************************
+Column rot_z mean already annotated in user supplied JSON mapping file
+label: rot_z mean
+description: Estimated head-motion parameter: rotation about the 'z' axis averaged over the run.
+Added source variable (rot_z mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=rot_z std, column=rot_z std
+
+*************************************************************************************
+Column rot_z std already annotated in user supplied JSON mapping file
+label: rot_z std
+description: Estimated head-motion parameter: rotation about the 'z' axis standard deviation over the run.
+Added source variable (rot_z std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+isAbout: @id = http://uri.interlex.org/ilx_0794753
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=csf mean, column=csf mean
+
+*************************************************************************************
+Column csf mean already annotated in user supplied JSON mapping file
+label: csf mean
+description: Global signal: the average signal within anatomically-derived eroded CSF mask averaged over the run.
+Added source variable (csf mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101997
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=csf std, column=csf std
+
+*************************************************************************************
+Column csf std already annotated in user supplied JSON mapping file
+label: csf std
+description: Global signal: the average signal within anatomically-derived eroded CSF mask standard deviation over the run.
+Added source variable (csf std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101997
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=white_matter mean, column=white_matter mean
+
+*************************************************************************************
+Column white_matter mean already annotated in user supplied JSON mapping file
+label: white_matter mean
+description: Global signal: the average signal within the anatomically-derived eroded white matter masks averaged over the run.
+Added source variable (white_matter mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0112630
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=white_matter std, column=white_matter std
+
+*************************************************************************************
+Column white_matter std already annotated in user supplied JSON mapping file
+label: white_matter std
+description: Global signal: the average signal within the anatomically-derived eroded white matter masks standard deviation over the run.
+Added source variable (white_matter std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0112630
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=global_signal mean, column=global_signal mean
+
+*************************************************************************************
+Column global_signal mean already annotated in user supplied JSON mapping file
+label: global_signal mean
+description: Global signal: the average signal within the brain mask averaged over the run.
+Added source variable (global_signal mean) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101431
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=global_signal std, column=global_signal std
+
+*************************************************************************************
+Column global_signal std already annotated in user supplied JSON mapping file
+label: global_signal std
+description: Global signal: the average signal within the brain mask standard deviation over the run.
+Added source variable (global_signal std) to annotations
+valueType: http://uri.interlex.org/ilx_0794754
+isAbout: @id = http://uri.interlex.org/ilx_0101431
+***************************************************************************************
+---------------------------------------------------------------------------------------
+json_key=motion outliers, column=motion outliers
+
+*************************************************************************************
+Column motion outliers already annotated in user supplied JSON mapping file
+label: motion outliers
+description: Count of frames within the run with sudden and large motion or intensity spikes.
+Added source variable (motion outliers) to annotations
+valueType: http://uri.interlex.org/base/ilx_0782600
+isAbout: @id = http://uri.interlex.org/ilx_0104909
+***************************************************************************************
+---------------------------------------------------------------------------------------
+Creating NIDM file...
+Writing NIDM file....
