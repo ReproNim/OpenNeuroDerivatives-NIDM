@@ -66,3 +66,17 @@ flowchart LR
   OND_UM -.-> MRIQC6171
   OND_UM -.-> FPREP6171
 ```
+
+## Setup
+
+You can clone this repository and then if you would like to access annexed
+content, ATM you would need to add typhon server as a remote:
+
+```shell
+
+git clone https://github.com/ReproNim/OpenNeuroDerivatives-NIDM
+cd OpenNeuroDerivatives-NIDM
+git remote add --fetch typhon:/data/repronim/OpenNeuroDerivatives-NIDM
+```
+
+For setting up typhon ssh access, see [CON/boarding document](https://github.com/con/catenate/blob/main/conboarding.md#cons-development-boxes).
