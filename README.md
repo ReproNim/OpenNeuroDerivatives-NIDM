@@ -76,7 +76,7 @@ content, ATM you would need to add typhon server as a remote:
 
 git clone https://github.com/ReproNim/OpenNeuroDerivatives-NIDM
 cd OpenNeuroDerivatives-NIDM
-git remote add --fetch typhon:/data/repronim/OpenNeuroDerivatives-NIDM
+git remote add --fetch typhon typhon:/data/repronim/OpenNeuroDerivatives-NIDM
 ```
 
 For setting up typhon ssh access, see [CON/boarding document](https://github.com/con/catenate/blob/main/conboarding.md#cons-development-boxes).
